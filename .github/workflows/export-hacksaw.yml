@@ -7,6 +7,7 @@ on:
       - .github/workflows/export-hacksaw.yml
       - tools/scrape_hacksaw.py
       - tools/probe_hacksaw_direct.py
+      - tools/probe_hacksaw_missing.py
   workflow_dispatch:
 
 permissions:
@@ -31,12 +32,15 @@ jobs:
         run: python tools/scrape_hacksaw.py
       - name: Probe official standalone demo URLs
         run: python tools/probe_hacksaw_direct.py
+      - name: Probe third-party-only games for standalone URLs
+        if: always()
+        run: python tools/probe_hacksaw_missing.py
       - name: Store result on export branch
         if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/hacksaw/catalogo.csv data/hacksaw/catalogo.json data/hacksaw/direct_demo_probes.json
+          git add data/hacksaw/catalogo.csv data/hacksaw/catalogo.json data/hacksaw/direct_demo_probes.json data/hacksaw/solo_faltantes_directos.csv data/hacksaw/solo_faltantes_directos.json
           git diff --cached --quiet || git commit -m "Export Hacksaw demo catalog"
           git push || true
       - name: Upload evidence
