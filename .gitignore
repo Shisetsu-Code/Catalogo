@@ -1,0 +1,5 @@
+/target/
+/dist/
+estado.json
+proveedores.csv
+*.tmp
