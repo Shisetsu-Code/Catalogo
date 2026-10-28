@@ -7,24 +7,24 @@ Aplicación de escritorio en Rust para Windows 11. Muestra una casilla por prove
 1. Abrir la pestaña **Actions** de este repositorio.
 2. Entrar en la última ejecución correcta de **Compilar Windows**.
 3. Descargar el archivo **Catalogo-Proveedores-Windows** en *Artifacts*.
-4. Extraer el ZIP, dejando **catalogo-proveedores.exe** y **proveedores.json** en la misma carpeta.
+4. Extraer el ZIP, dejando **catalogo-proveedores.exe**, **proveedores.json** y la carpeta **logos** juntos.
 5. Abrir el EXE. No necesita servidor ni conexión.
 
 Si todavía no aparece ninguna ejecución, revisar que GitHub Actions esté habilitado en el repositorio.
 
 ## Editar la lista de proveedores
 
-**Archivo principal: [proveedores.json](proveedores.json).** Es una lista JSON de cadenas de texto, editable en GitHub o con cualquier editor:
+**Archivo principal: [proveedores.json](proveedores.json).** Es una lista de objetos JSON. Cada proveedor tiene un `id` estable, su `name` comercial y su `domain` para obtener la miniatura. Se puede editar directamente en GitHub:
 
 ~~~json
 [
-  "Pragmatic",
-  "Endorphina",
-  "Playtech"
+  {"id": "pragmatic", "name": "Pragmatic Play", "domain": "pragmaticplay.com"},
+  {"id": "endorphina", "name": "Endorphina", "domain": "endorphina.com"},
+  {"id": "playtech", "name": "Playtech", "domain": "playtech.com"}
 ]
 ~~~
 
-Agregar o quitar elementos respetando comas y comillas. Los duplicados se filtran automáticamente (ignorando diferencias de mayúsculas, espacios y alias básicos).
+Agregar o quitar objetos respetando comas y comillas. **No cambies el `id` al corregir un nombre:** identifica la casilla guardada. Para agregar un proveedor nuevo, podés omitir el `id`; la app lo generará automáticamente. El campo opcional `logo_url` permite indicar una URL HTTPS de imagen propia (PNG/JPG). También siguen funcionando catálogos antiguos formados por una lista de nombres.
 
 - Al cambiarlo desde GitHub, el archivo queda actualizado en el repositorio. Para utilizarlo localmente, reemplazar **proveedores.json** junto al ejecutable y pulsar **Recargar catálogo**. **No hace falta recompilar**.
 - También se pueden añadir o quitar proveedores desde la interfaz; esas operaciones modifican el archivo local **proveedores.json**.
@@ -64,3 +64,13 @@ O ejecutar **compilar-windows.bat**, que genera una carpeta **dist** con el ejec
 - [compilar-windows.bat](compilar-windows.bat): compilación local.
 
 No se conecta a una API: cada casilla se marca manualmente.
+
+## Preparar miniaturas en una compilación local
+
+```powershell
+python -m pip install pillow
+python scripts/fetch_logos.py
+cargo build --release
+```
+
+La CI de Windows realiza estos pasos automáticamente e incluye todos los PNG en el ZIP. Los logos son favicons de los sitios indicados en el catálogo, no necesariamente los logotipos completos oficiales. Donde no se pudo obtener favicon, se muestra una miniatura con iniciales, sin inventar la marca. La app no hace solicitudes de red al abrirse; funciona sin conexión con la carpeta `logos/`.
