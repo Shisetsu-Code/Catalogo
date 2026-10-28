@@ -14,6 +14,14 @@ IDS={
   1426:"Beam Boys",1530:"Donny Dough",1534:"SixSixSix",
   1538:"Shadow Strike",1540:"Shadow Treasure",1554:"Shaolin Master",
   1301:"Sleepy Grandpa",1124:"Mines",
+  2458:"Supreme Zeus (known current ID)",2470:"Le Hooligan (known current ID)",
+  2500:"Recent candidate 2500",2504:"Recent candidate 2504",
+  2508:"Recent candidate 2508",2512:"Recent candidate 2512",
+  2516:"Recent candidate 2516",2520:"Recent candidate 2520",
+  2524:"Recent candidate 2524",2528:"Recent candidate 2528",
+  2532:"Recent candidate 2532",2536:"Recent candidate 2536",
+  2540:"Recent candidate 2540",2560:"Recent candidate 2560",
+  2600:"Recent candidate 2600",2700:"Recent candidate 2700",
   1391:"Neighbor 1391 (unknown)",1393:"Neighbor 1393 (unknown)",
   999999:"Negative control (invalid)",
 }
@@ -56,10 +64,12 @@ async def test(browser,gameid,name,sem):
     frameurl=page.frames[-1].url
     result["last_frame_host"]=frameurl.split("/")[2] if "://" in frameurl else ""
    except: pass
+   result["version_requests"]=[x for x in calls if x["path"]=="version.json"]
    result["observed_runtime"]=(result["canvas_count"]>0 or result["iframe_count"]>0 or len(calls)>8)
    errish=bool(re.search(r"invalid|unavailable|expired|unauthorized|not found|forbidden|game not|unknown game",body,re.I))
    if not r or r.status>=400: result["load_result"]="http_error"
    elif errish:result["load_result"]="visible_error"
+   elif result["version_requests"] and all(x["status"]>=400 for x in result["version_requests"]):result["load_result"]="version_rejected"
    elif result["observed_runtime"]:result["load_result"]="runtime_resources_loaded_not_gameplay_verified"
    else:result["load_result"]="html_shell_only"
   except Exception as e:result["load_result"]="navigation_exception";result["exception"]=scrub(e)
