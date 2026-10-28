@@ -5,6 +5,7 @@ on:
       - hacksaw-catalog-export-20261028
     paths:
       - .github/workflows/export-hacksaw.yml
+      - tools/scrape_hacksaw.py
   workflow_dispatch:
 
 permissions:
