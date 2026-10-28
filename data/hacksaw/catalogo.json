@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source_url": "https://slotslaunch.com/hacksaw-gaming",
-    "collected_at_utc": "2026-10-28T18:10:25.567352+00:00",
+    "collected_at_utc": "2026-10-28T18:14:16.076201+00:00",
     "source_claimed_demo_count": 285,
-    "unique_page_links_collected": 119,
+    "unique_page_links_collected": 305,
     "complete_against_site_claim": false,
     "notes": "Enlaces a páginas con demo; no son URL de API del fabricante ni sesiones/iframes permanentes.",
     "page_javascript_errors": [],
@@ -47,9 +47,371 @@
         "viewport": 900
       },
       "network_paths": []
-    }
+    },
+    "sitemap_links_found": 284,
+    "sitemap_scan": [
+      {
+        "url": "https://slotslaunch.com/sitemap-forum.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-de.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-de.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10984,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-de.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-de.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-nl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-nl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10978,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-nl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-nl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-es.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-es.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10981,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-es.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-es.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-fr.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-fr.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10983,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-fr.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-fr.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-pt-br.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-pt-br.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10760,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-pt-br.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-pt-br.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-pt.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-pt.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10758,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-pt.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-pt.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-da.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-da.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10752,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-da.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-da.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-fi.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-fi.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10747,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-fi.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-fi.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-sv.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-sv.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10755,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-sv.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-sv.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-it.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-it.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10754,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-it.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-it.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-pl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-pl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10755,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-pl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-pl.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-pages-no.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 147,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-games-no.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 10746,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-providers-no.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 1,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-forum-no.xml.gz",
+        "code": 200,
+        "index": false,
+        "urls": 42,
+        "hacksaw_total": 284
+      },
+      {
+        "url": "https://slotslaunch.com/sitemap-index.xml.gz",
+        "code": 200,
+        "index": true,
+        "urls": 53,
+        "hacksaw_total": 284
+      }
+    ]
   },
   "games": [
+    {
+      "name": "2 Wild 2 Die",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/2-wild-2-die",
+      "slug": "2-wild-2-die",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
     {
       "name": "3 Adventures of Alice Hold & Win",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/3-adventures-of-alice-hold-win",
@@ -114,6 +476,15 @@
       "official_url": ""
     },
     {
+      "name": "Alpha Eagle",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/alpha-eagle",
+      "slug": "alpha-eagle",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Arizona James and the Lost Relics",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/arizona-james-and-the-lost-relics",
       "slug": "arizona-james-and-the-lost-relics",
@@ -132,11 +503,155 @@
       "official_url": ""
     },
     {
+      "name": "Aztec Twist",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/aztec-twist",
+      "slug": "aztec-twist",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Baccarat",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/baccarat",
+      "slug": "baccarat",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Balloons",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/balloons",
+      "slug": "balloons",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Bash Bros",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/bash-bros",
       "slug": "bash-bros",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Beam Boys",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/beam-boys",
+      "slug": "beam-boys",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Beast Below",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/beast-below",
+      "slug": "beast-below",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Benny The Beer",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/benny-the-beer",
+      "slug": "benny-the-beer",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Blocks",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/blocks",
+      "slug": "blocks",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Bloodthirst",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/bloodthirst",
+      "slug": "bloodthirst",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Book Of Time",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/book-of-time",
+      "slug": "book-of-time",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Booze Bash",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/booze-bash",
+      "slug": "booze-bash",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Born Wild",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/born-wild",
+      "slug": "born-wild",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Bouncy Bombs",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/bouncy-bombs",
+      "slug": "bouncy-bombs",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Boxes",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/boxes",
+      "slug": "boxes",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Break Bones",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/break-bones",
+      "slug": "break-bones",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Break The Ice",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/break-the-ice",
+      "slug": "break-the-ice",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Buffalo Stacknsync",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/buffalo-stacknsync",
+      "slug": "buffalo-stacknsync",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -159,11 +674,92 @@
       "official_url": ""
     },
     {
+      "name": "Cash Compass",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-compass",
+      "slug": "cash-compass",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cash Crew",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-crew",
+      "slug": "cash-crew",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Cash Crooks",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-crooks",
       "slug": "cash-crooks",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cash Pool",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-pool",
+      "slug": "cash-pool",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cash Quest",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-quest",
+      "slug": "cash-quest",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cash Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-scratch",
+      "slug": "cash-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cash Vault 1",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-vault-1",
+      "slug": "cash-vault-1",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cash Vault 2",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-vault-2",
+      "slug": "cash-vault-2",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Chaos Crew",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/chaos-crew",
+      "slug": "chaos-crew",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Chaos Crew 2",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/chaos-crew-2",
+      "slug": "chaos-crew-2",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -177,11 +773,29 @@
       "official_url": ""
     },
     {
+      "name": "Chaos Crew Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/chaos-crew-scratch",
+      "slug": "chaos-crew-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Circle of Life",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/circle-of-life",
       "slug": "circle-of-life",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cloud Princess",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cloud-princess",
+      "slug": "cloud-princess",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -195,11 +809,92 @@
       "official_url": ""
     },
     {
+      "name": "Coins",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/coins",
+      "slug": "coins",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Colors",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/colors",
+      "slug": "colors",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Crazy Donuts",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/crazy-donuts",
+      "slug": "crazy-donuts",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Croco Clover",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/croco-clover",
       "slug": "croco-clover",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cubes",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cubes",
+      "slug": "cubes",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cubes 2",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cubes-2",
+      "slug": "cubes-2",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cup Heroes",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cup-heroes",
+      "slug": "cup-heroes",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cursed Crypt",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cursed-crypt",
+      "slug": "cursed-crypt",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cursed Seas",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cursed-seas",
+      "slug": "cursed-seas",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cut The Grass",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cut-the-grass",
+      "slug": "cut-the-grass",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -213,11 +908,38 @@
       "official_url": ""
     },
     {
+      "name": "Danny Dollar",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/danny-dollar",
+      "slug": "danny-dollar",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Dark Spiral",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/dark-spiral",
       "slug": "dark-spiral",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dark Summoning",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dark-summoning",
+      "slug": "dark-summoning",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dawn Of Kings",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dawn-of-kings",
+      "slug": "dawn-of-kings",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -249,6 +971,42 @@
       "official_url": ""
     },
     {
+      "name": "Densho",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/densho",
+      "slug": "densho",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Diamond Rush",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/diamond-rush",
+      "slug": "diamond-rush",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dice",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dice",
+      "slug": "dice",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Divine Drop",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/divine-drop",
+      "slug": "divine-drop",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Donny & Danny",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/donny-danny",
       "slug": "donny-danny",
@@ -267,6 +1025,15 @@
       "official_url": ""
     },
     {
+      "name": "Donny Dough",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/donny-dough",
+      "slug": "donny-dough",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Donny Dough OG",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/donny-dough-og",
       "slug": "donny-dough-og",
@@ -276,11 +1043,110 @@
       "official_url": ""
     },
     {
+      "name": "Donut Division",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/donut-division",
+      "slug": "donut-division",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dork Unit",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dork-unit",
+      "slug": "dork-unit",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dorks Of The Deep",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dorks-of-the-deep",
+      "slug": "dorks-of-the-deep",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Double Rainbow",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/double-rainbow",
+      "slug": "double-rainbow",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Double Salary 1 Year",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/double-salary-1-year",
+      "slug": "double-salary-1-year",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Dr Zappo",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/dr-zappo",
       "slug": "dr-zappo",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dragons Domain",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dragons-domain",
+      "slug": "dragons-domain",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dream Car Speed",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dream-car-speed",
+      "slug": "dream-car-speed",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dream Car Suv",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dream-car-suv",
+      "slug": "dream-car-suv",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dream Car Urban",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dream-car-urban",
+      "slug": "dream-car-urban",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Drop Em",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/drop-em",
+      "slug": "drop-em",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Duel At Dawn",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/duel-at-dawn",
+      "slug": "duel-at-dawn",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -308,6 +1174,15 @@
       "slug": "eclipse-princess",
       "source": "SlotsLaunch",
       "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Eggstra Cash",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/eggstra-cash",
+      "slug": "eggstra-cash",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -357,11 +1232,92 @@
       "official_url": ""
     },
     {
+      "name": "Evil Eyes",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/evil-eyes",
+      "slug": "evil-eyes",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Express 200",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/express-200",
+      "slug": "express-200",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Eye Of Medusa",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/eye-of-medusa",
+      "slug": "eye-of-medusa",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Eye Of The Panda",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/eye-of-the-panda",
+      "slug": "eye-of-the-panda",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Fear The Dark",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/fear-the-dark",
+      "slug": "fear-the-dark",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Feel The Beat",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/feel-the-beat",
+      "slug": "feel-the-beat",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Feeling Froggy",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/feeling-froggy",
       "slug": "feeling-froggy",
       "source": "SlotsLaunch",
       "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Fighter Pit",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/fighter-pit",
+      "slug": "fighter-pit",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Fire My Laser",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/fire-my-laser",
+      "slug": "fire-my-laser",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Fist Of Destruction",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/fist-of-destruction",
+      "slug": "fist-of-destruction",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -375,6 +1331,87 @@
       "official_url": ""
     },
     {
+      "name": "Football Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/football-scratch",
+      "slug": "football-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Forest Fortune",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/forest-fortune",
+      "slug": "forest-fortune",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Franks Farm",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/franks-farm",
+      "slug": "franks-farm",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Freds Food Truck",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/freds-food-truck",
+      "slug": "freds-food-truck",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Frkn Bananas",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/frkn-bananas",
+      "slug": "frkn-bananas",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Frogs Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/frogs-scratch",
+      "slug": "frogs-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Fruit Duel",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/fruit-duel",
+      "slug": "fruit-duel",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Frutz",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/frutz",
+      "slug": "frutz",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Get The Cheese",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/get-the-cheese",
+      "slug": "get-the-cheese",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Ghost Vision",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/ghost-vision",
       "slug": "ghost-vision",
@@ -384,11 +1421,47 @@
       "official_url": ""
     },
     {
+      "name": "Gladiator Legends",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/gladiator-legends",
+      "slug": "gladiator-legends",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Go Panda",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/go-panda",
+      "slug": "go-panda",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Gold Baron 777 Hold & Win",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/gold-baron-777-hold-win",
       "slug": "gold-baron-777-hold-win",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Gold Coins",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/gold-coins",
+      "slug": "gold-coins",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Gold Rush",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/gold-rush",
+      "slug": "gold-rush",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -407,6 +1480,15 @@
       "slug": "great-game-serengeti",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Gronks Gems",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/gronks-gems",
+      "slug": "gronks-gems",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -438,11 +1520,56 @@
       "official_url": ""
     },
     {
+      "name": "Hand Of Anubis",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hand-of-anubis",
+      "slug": "hand-of-anubis",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Happy Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/happy-scratch",
+      "slug": "happy-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Harvest Wilds",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/harvest-wilds",
+      "slug": "harvest-wilds",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Hellmageddon",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/hellmageddon",
       "slug": "hellmageddon",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Hi Lo",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hi-lo",
+      "slug": "hi-lo",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Hopnpop",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hopnpop",
+      "slug": "hopnpop",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -456,11 +1583,128 @@
       "official_url": ""
     },
     {
+      "name": "Hounds Of Hell",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hounds-of-hell",
+      "slug": "hounds-of-hell",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Immortal Desire",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/immortal-desire",
+      "slug": "immortal-desire",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Invictus",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/invictus",
+      "slug": "invictus",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Itero",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/itero",
+      "slug": "itero",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Its Bananas",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/its-bananas",
+      "slug": "its-bananas",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Jaws of Justice",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/jaws-of-justice",
       "slug": "jaws-of-justice",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Jelly Slice",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/jelly-slice",
+      "slug": "jelly-slice",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Joker Bombs",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/joker-bombs",
+      "slug": "joker-bombs",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Keep Em Cool",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/keep-em-cool",
+      "slug": "keep-em-cool",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Keepem",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/keepem",
+      "slug": "keepem",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "King Carrot",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/king-carrot",
+      "slug": "king-carrot",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "King Treasure",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/king-treasure",
+      "slug": "king-treasure",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Klowns",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/klowns",
+      "slug": "klowns",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Koi Cash",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/koi-cash",
+      "slug": "koi-cash",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -573,6 +1817,24 @@
       "official_url": ""
     },
     {
+      "name": "Le King",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-king",
+      "slug": "le-king",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Pharaoh",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-pharaoh",
+      "slug": "le-pharaoh",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Le Prechaun",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/le-prechaun",
       "slug": "le-prechaun",
@@ -618,6 +1880,15 @@
       "official_url": ""
     },
     {
+      "name": "Le Viking",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-viking",
+      "slug": "le-viking",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Le Zeus",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/le-zeus",
       "slug": "le-zeus",
@@ -636,11 +1907,119 @@
       "official_url": ""
     },
     {
+      "name": "Let It Snow",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/let-it-snow",
+      "slug": "let-it-snow",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Life And Death",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/life-and-death",
+      "slug": "life-and-death",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Limbo",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/limbo",
+      "slug": "limbo",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lines",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lines",
+      "slug": "lines",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Love Is All You Need",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/love-is-all-you-need",
+      "slug": "love-is-all-you-need",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Lucky Ling Golden Treasures",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-ling-golden-treasures",
       "slug": "lucky-ling-golden-treasures",
       "source": "SlotsLaunch",
       "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lucky Numbers X12",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-numbers-x12",
+      "slug": "lucky-numbers-x12",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lucky Numbers X16",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-numbers-x16",
+      "slug": "lucky-numbers-x16",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lucky Numbers X20",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-numbers-x20",
+      "slug": "lucky-numbers-x20",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lucky Numbers X8",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-numbers-x8",
+      "slug": "lucky-numbers-x8",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lucky Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-scratch",
+      "slug": "lucky-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lucky Shot",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-shot",
+      "slug": "lucky-shot",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Magic Piggy",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/magic-piggy",
+      "slug": "magic-piggy",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -659,6 +2038,15 @@
       "slug": "magic-piggy-og",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Marlin Masters",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters",
+      "slug": "marlin-masters",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -717,11 +2105,47 @@
       "official_url": ""
     },
     {
+      "name": "Mayan Stackways",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/mayan-stackways",
+      "slug": "mayan-stackways",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Miami Mayhem",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/miami-mayhem",
       "slug": "miami-mayhem",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Miami Multiplier",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/miami-multiplier",
+      "slug": "miami-multiplier",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Mighty Masks",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/mighty-masks",
+      "slug": "mighty-masks",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Mines",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/mines",
+      "slug": "mines",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -762,11 +2186,74 @@
       "official_url": ""
     },
     {
+      "name": "Mystery Motel",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/mystery-motel",
+      "slug": "mystery-motel",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Nitro Nights",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/nitro-nights",
       "slug": "nitro-nights",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Octo Attack",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/octo-attack",
+      "slug": "octo-attack",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Omnom",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/omnom",
+      "slug": "omnom",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Orb Of Destiny",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/orb-of-destiny",
+      "slug": "orb-of-destiny",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Outlaws Inc",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/outlaws-inc",
+      "slug": "outlaws-inc",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Phoenix Duelreels",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/phoenix-duelreels",
+      "slug": "phoenix-duelreels",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Plinko",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/plinko",
+      "slug": "plinko",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -789,11 +2276,65 @@
       "official_url": ""
     },
     {
+      "name": "Pray For Three",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/pray-for-three",
+      "slug": "pray-for-three",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Prince Treasure",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/prince-treasure",
+      "slug": "prince-treasure",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Pug Life",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/pug-life",
+      "slug": "pug-life",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Queen Treasure",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/queen-treasure",
+      "slug": "queen-treasure",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Rad Maxx",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rad-maxx",
+      "slug": "rad-maxx",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Rainbow Princess",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/rainbow-princess",
       "slug": "rainbow-princess",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Rat Riches",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rat-riches",
+      "slug": "rat-riches",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -816,6 +2357,15 @@
       "official_url": ""
     },
     {
+      "name": "Reign Of Rome",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/reign-of-rome",
+      "slug": "reign-of-rome",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "RIP City",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/rip-city",
       "slug": "rip-city",
@@ -834,11 +2384,146 @@
       "official_url": ""
     },
     {
+      "name": "Rise Of Ymir",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rise-of-ymir",
+      "slug": "rise-of-ymir",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Rocket Reels",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rocket-reels",
+      "slug": "rocket-reels",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Ronin Stackways",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/ronin-stackways",
+      "slug": "ronin-stackways",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Rotten",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rotten",
+      "slug": "rotten",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Ruby Rush",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/ruby-rush",
+      "slug": "ruby-rush",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Rusty Curly",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rusty-curly",
+      "slug": "rusty-curly",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Sand and Ashes",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/sand-and-ashes",
       "slug": "sand-and-ashes",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratch A Million",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratch-a-million",
+      "slug": "scratch-a-million",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratch Bronze",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratch-bronze",
+      "slug": "scratch-bronze",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratch Gold",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratch-gold",
+      "slug": "scratch-gold",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratch Platinum",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratch-platinum",
+      "slug": "scratch-platinum",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratch Silver",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratch-silver",
+      "slug": "scratch-silver",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratchem",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratchem",
+      "slug": "scratchem",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratchy",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratchy",
+      "slug": "scratchy",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratchy Big",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratchy-big",
+      "slug": "scratchy-big",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Scratchy Mini",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/scratchy-mini",
+      "slug": "scratchy-mini",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -861,11 +2546,56 @@
       "official_url": ""
     },
     {
+      "name": "Shaolin Master",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/shaolin-master",
+      "slug": "shaolin-master",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Shave The Beard",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/shave-the-beard",
+      "slug": "shave-the-beard",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Shave The Sheep",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/shave-the-sheep",
+      "slug": "shave-the-sheep",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Sixsixsix",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/sixsixsix",
+      "slug": "sixsixsix",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Skybound Bail2Win",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/skybound-bail2win",
       "slug": "skybound-bail2win",
       "source": "SlotsLaunch",
       "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Slayers Inc",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/slayers-inc",
+      "slug": "slayers-inc",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -879,11 +2609,38 @@
       "official_url": ""
     },
     {
+      "name": "Snow Scratcher",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/snow-scratcher",
+      "slug": "snow-scratcher",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Snow Slingers",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/snow-slingers",
+      "slug": "snow-slingers",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Spear of Athena",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/spear-of-athena",
       "slug": "spear-of-athena",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Speed Crash",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/speed-crash",
+      "slug": "speed-crash",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -897,6 +2654,42 @@
       "official_url": ""
     },
     {
+      "name": "Spinman",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/spinman",
+      "slug": "spinman",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Spooky Scary Scratchy",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/spooky-scary-scratchy",
+      "slug": "spooky-scary-scratchy",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Stack Em Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/stack-em-scratch",
+      "slug": "stack-em-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Stackem",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/stackem",
+      "slug": "stackem",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Steamrunners",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/steamrunners",
       "slug": "steamrunners",
@@ -906,11 +2699,47 @@
       "official_url": ""
     },
     {
+      "name": "Stickem",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/stickem",
+      "slug": "stickem",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Stormborn",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/stormborn",
       "slug": "stormborn",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Stormforged",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/stormforged",
+      "slug": "stormforged",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Strength Of Hercules",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/strength-of-hercules",
+      "slug": "strength-of-hercules",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Summer Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/summer-scratch",
+      "slug": "summer-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -969,11 +2798,47 @@
       "official_url": ""
     },
     {
+      "name": "Tai The Toad",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/tai-the-toad",
+      "slug": "tai-the-toad",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Tasty Teddy",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/tasty-teddy",
       "slug": "tasty-teddy",
       "source": "SlotsLaunch",
       "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Tasty Treats",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/tasty-treats",
+      "slug": "tasty-treats",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Temple Of Torment",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/temple-of-torment",
+      "slug": "temple-of-torment",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Bowery Boys",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-bowery-boys",
+      "slug": "the-bowery-boys",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -1005,6 +2870,15 @@
       "official_url": ""
     },
     {
+      "name": "The Luxe",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-luxe",
+      "slug": "the-luxe",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "The Luxe Dice",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/the-luxe-dice",
       "slug": "the-luxe-dice",
@@ -1019,6 +2893,24 @@
       "slug": "the-luxe-prestige",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Perfect Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-perfect-scratch",
+      "slug": "the-perfect-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Respinners",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-respinners",
+      "slug": "the-respinners",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
@@ -1050,6 +2942,33 @@
       "official_url": ""
     },
     {
+      "name": "Tiger Scratch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/tiger-scratch",
+      "slug": "tiger-scratch",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Time Spinners",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/time-spinners",
+      "slug": "time-spinners",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Toshi Video Club",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/toshi-video-club",
+      "slug": "toshi-video-club",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Toshi Ways Club",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/toshi-ways-club",
       "slug": "toshi-ways-club",
@@ -1077,6 +2996,51 @@
       "official_url": ""
     },
     {
+      "name": "Twenty One",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/twenty-one",
+      "slug": "twenty-one",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Twisted Lab",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/twisted-lab",
+      "slug": "twisted-lab",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Ultimate Slot Of America",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/ultimate-slot-of-america",
+      "slug": "ultimate-slot-of-america",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Undead Fortune",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/undead-fortune",
+      "slug": "undead-fortune",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Vending Machine",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/vending-machine",
+      "slug": "vending-machine",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Wanted Dead or a Wild",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/wanted-dead-or-a-wild",
       "slug": "wanted-dead-or-a-wild",
@@ -1095,6 +3059,24 @@
       "official_url": ""
     },
     {
+      "name": "Warrior Ways",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/warrior-ways",
+      "slug": "warrior-ways",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Wheel",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/wheel",
+      "slug": "wheel",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
       "name": "Wicked Grin",
       "page_url": "https://slotslaunch.com/hacksaw-gaming/wicked-grin",
       "slug": "wicked-grin",
@@ -1109,6 +3091,51 @@
       "slug": "willy-wildwing",
       "source": "SlotsLaunch",
       "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Wings Of Horus",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/wings-of-horus",
+      "slug": "wings-of-horus",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Wishbringer",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/wishbringer",
+      "slug": "wishbringer",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Xmas Drop",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/xmas-drop",
+      "slug": "xmas-drop",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Xpander",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/xpander",
+      "slug": "xpander",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Ze Zeus",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/ze-zeus",
+      "slug": "ze-zeus",
+      "source": "SlotsLaunch sitemap XML",
+      "status": "ficha_indexada_demo_no_verificada",
       "direct_client_url": "",
       "official_url": ""
     },
