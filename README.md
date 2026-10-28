@@ -88,7 +88,7 @@ Versiones revisadas el 28 de octubre de 2026:
 | Pillow (generación de logos) | 13.0.0 |
 | actions/checkout | 7.0.1 |
 | actions/upload-artifact | 7.0.2 |
-| Swatinem/rust-cache | 2.9.2 |
+| Swatinem/rust-cache | 2.9.3 |
 | rustc | stable (se instala con rustup en GitHub Actions) |
 
 Las dependencias directas Rust están declaradas en `Cargo.toml`; el archivo `Cargo.lock` congela las transitivas. `requirements-build.txt` fija Pillow. GitHub Actions ejecuta `cargo test --locked` y `cargo build --release --locked`. Dependabot está configurado para comprobar semanalmente las actualizaciones disponibles en Cargo, pip y GitHub Actions: genera propuestas de cambio, que deben revisarse antes de incorporarlas.
