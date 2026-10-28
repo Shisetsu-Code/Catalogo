@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-28T20:54:36.812698+00:00",
+  "checked_at_utc": "2026-10-28T20:57:25.234077+00:00",
   "launcher": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
   "test_params": {
     "channel": "desktop",
@@ -16,7 +16,7 @@
       "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
       "navigation_status": 200,
       "page_title": "Mines",
-      "elapsed_s": 9.1,
+      "elapsed_s": 8.9,
       "main_frame": false,
       "canvas_count": 1,
       "iframe_count": 0,
@@ -39,16 +39,16 @@
           "path": "hs-launcher.min.js"
         },
         {
-          "status": 302,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
           "status": 204,
           "host": "static-stg.hacksawgaming.com",
           "path": "rum"
         },
         {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
           "path": "main.js"
@@ -56,7 +56,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd5bddd8ef0a0"
+          "path": "a51cd8be7dcaa1df"
         },
         {
           "status": 200,
@@ -81,12 +81,17 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
           "path": "array-find-polyfill.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
+          "path": "promise-polyfill.min.js"
         },
         {
           "status": 200,
@@ -101,26 +106,6 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "icomoon.woff2"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
           "path": "integration.js"
         },
         {
@@ -131,12 +116,22 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
           "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
         },
         {
           "status": 200,
@@ -151,7 +146,17 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
           "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
         },
         {
           "status": 200,
@@ -164,19 +169,21 @@
           "path": "scenarios.json"
         },
         {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "needles.umd.js"
-        },
-        {
           "status": 204,
           "host": "static-stg.hacksawgaming.com",
           "path": "rum"
         }
       ],
       "errors": [],
-      "visible_text": "OOPS!\n0_1793220861_7547\nConnection lost to wallet - please try again.\nOK",
+      "visible_text": "OOPS!\n0_1793220983_8011\nConnection lost to wallet - please try again.\nOK",
       "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "Failed to load resource: net::ERR_FAILED",
@@ -190,7 +197,7 @@
       "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
       "navigation_status": 200,
       "page_title": "Sleepy Grandpa",
-      "elapsed_s": 9.7,
+      "elapsed_s": 9.0,
       "main_frame": false,
       "canvas_count": 1,
       "iframe_count": 0,
@@ -230,12 +237,206 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd8bc9dcaa21b"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
           "path": "stg.json"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd583efd70b80"
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "runtime.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "vendors.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793220983_3778\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 1391,
+      "expected_game": "Neighbor 1391 (unknown)",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Colors",
+      "elapsed_s": 8.9,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cda0fae72a200"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
         },
         {
           "status": 200,
@@ -260,12 +461,12 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
+          "path": "promise-polyfill.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
+          "path": "coljuegos.png"
         },
         {
           "status": 200,
@@ -275,12 +476,27 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
+          "path": "array-find-polyfill.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
         },
         {
           "status": 200,
@@ -295,37 +511,12 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "runtime.js"
+          "path": "desc-locale.json"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
           "path": "icomoon.woff2"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
         },
         {
           "status": 200,
@@ -341,163 +532,6 @@
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
           "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "vendors.js"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        }
-      ],
-      "errors": [],
-      "visible_text": "OOPS!\n0_1793220852_7227\nConnection lost to wallet - please try again.\nOK",
-      "last_frame_host": "static-stg.hacksawgaming.com",
-      "console_errors": [
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED"
-      ]
-    },
-    {
-      "id": 1391,
-      "expected_game": "Neighbor 1391 (unknown)",
-      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
-      "navigation_status": 200,
-      "page_title": "Colors",
-      "elapsed_s": 9.1,
-      "main_frame": false,
-      "canvas_count": 1,
-      "iframe_count": 0,
-      "observed_runtime": true,
-      "load_result": "runtime_resources_loaded_not_gameplay_verified",
-      "responses": [
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "static-launcher.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hs-launcher.min.js"
-        },
-        {
-          "status": 302,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd5bebcc2e88f"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "stg.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "version.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "index.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "icomoon.woff2"
         },
         {
           "status": 200,
@@ -510,24 +544,21 @@
           "path": "scenarios.json"
         },
         {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "en-us.json"
-        },
-        {
           "status": 204,
           "host": "static-stg.hacksawgaming.com",
           "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
         }
       ],
       "errors": [],
-      "visible_text": "OOPS!\n0_1793220861_6244\nConnection lost to wallet - please try again.\nOK",
+      "visible_text": "OOPS!\n0_1793221037_5274\nConnection lost to wallet - please try again.\nOK",
       "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "Failed to load resource: net::ERR_FAILED",
@@ -541,543 +572,6 @@
       "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
       "navigation_status": 200,
       "page_title": "Dark Summoning",
-      "elapsed_s": 9.2,
-      "main_frame": false,
-      "canvas_count": 1,
-      "iframe_count": 0,
-      "observed_runtime": true,
-      "load_result": "runtime_resources_loaded_not_gameplay_verified",
-      "responses": [
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "static-launcher.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hs-launcher.min.js"
-        },
-        {
-          "status": 302,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd4d2ac137d9f"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "stg.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "version.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "index.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "icomoon.woff2"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "en-us.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "needles.umd.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "scenarios.json"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        }
-      ],
-      "errors": [],
-      "visible_text": "OOPS!\n0_1793220823_2518\nConnection lost to wallet - please try again.\nOK",
-      "last_frame_host": "static-stg.hacksawgaming.com",
-      "console_errors": [
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED",
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED"
-      ]
-    },
-    {
-      "id": 1393,
-      "expected_game": "Neighbor 1393 (unknown)",
-      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
-      "navigation_status": 200,
-      "page_title": "Dark Summoning",
-      "elapsed_s": 9.1,
-      "main_frame": false,
-      "canvas_count": 1,
-      "iframe_count": 0,
-      "observed_runtime": true,
-      "load_result": "runtime_resources_loaded_not_gameplay_verified",
-      "responses": [
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "static-launcher.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hs-launcher.min.js"
-        },
-        {
-          "status": 302,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd5c0bbe5377b"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "stg.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "version.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "index.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "icomoon.woff2"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "en-us.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "needles.umd.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "scenarios.json"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        }
-      ],
-      "errors": [],
-      "visible_text": "OOPS!\n0_1793220862_2494\nConnection lost to wallet - please try again.\nOK",
-      "last_frame_host": "static-stg.hacksawgaming.com",
-      "console_errors": [
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED",
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED"
-      ]
-    },
-    {
-      "id": 1400,
-      "expected_game": "2 Wild 2 Die",
-      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
-      "navigation_status": 200,
-      "page_title": "2 Wild 2 Die",
-      "elapsed_s": 9.7,
-      "main_frame": false,
-      "canvas_count": 1,
-      "iframe_count": 0,
-      "observed_runtime": true,
-      "load_result": "runtime_resources_loaded_not_gameplay_verified",
-      "responses": [
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "static-launcher.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hs-launcher.min.js"
-        },
-        {
-          "status": 302,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd4d2ac40f817"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "stg.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "version.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "index.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "icomoon.woff2"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "en-us.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "needles.umd.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "scenarios.json"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        }
-      ],
-      "errors": [],
-      "visible_text": "OOPS!\n0_1793220824_4188\nConnection lost to wallet - please try again.\nOK",
-      "last_frame_host": "static-stg.hacksawgaming.com",
-      "console_errors": [
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED",
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED"
-      ]
-    },
-    {
-      "id": 1404,
-      "expected_game": "Rusty & Curly",
-      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
-      "navigation_status": 200,
-      "page_title": "Rusty & Curly",
       "elapsed_s": 9.3,
       "main_frame": false,
       "canvas_count": 1,
@@ -1118,7 +612,193 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd4d2afac6af5"
+          "path": "a51cd812f9b34cb8"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793220956_8458\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 1393,
+      "expected_game": "Neighbor 1393 (unknown)",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Dark Summoning",
+      "elapsed_s": 8.9,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cda123eba9007"
         },
         {
           "status": 200,
@@ -1148,12 +828,12 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
+          "path": "array-find-polyfill.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
+          "path": "coljuegos.png"
         },
         {
           "status": 200,
@@ -1163,17 +843,12 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
+          "path": "ui.min.css"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
+          "path": "integration.js"
         },
         {
           "status": 200,
@@ -1188,12 +863,27 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
           "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
         },
         {
           "status": 200,
@@ -1213,7 +903,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
+          "path": "needles.umd.js"
         },
         {
           "status": 200,
@@ -1223,17 +913,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
           "path": "scenarios.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "needles.umd.js"
         },
         {
           "status": 204,
@@ -1242,8 +922,15 @@
         }
       ],
       "errors": [],
-      "visible_text": "OOPS!\n0_1793220823_5080\nConnection lost to wallet - please try again.\nOK",
+      "visible_text": "OOPS!\n0_1793221038_9927\nConnection lost to wallet - please try again.\nOK",
       "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "Failed to load resource: net::ERR_FAILED",
@@ -1252,11 +939,11 @@
       ]
     },
     {
-      "id": 1426,
-      "expected_game": "Beam Boys",
+      "id": 1400,
+      "expected_game": "2 Wild 2 Die",
       "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
       "navigation_status": 200,
-      "page_title": "Beam Boys",
+      "page_title": "2 Wild 2 Die",
       "elapsed_s": 9.1,
       "main_frame": false,
       "canvas_count": 1,
@@ -1297,7 +984,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd50c1e950b80"
+          "path": "a51cd812fa47a1fd"
         },
         {
           "status": 200,
@@ -1322,6 +1009,11 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
           "path": "promise-polyfill.min.js"
         },
         {
@@ -1332,32 +1024,12 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
           "path": "juegabien.png"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
+          "path": "array-find-polyfill.min.js"
         },
         {
           "status": 200,
@@ -1367,12 +1039,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
+          "path": "reporter.min.js"
         },
         {
           "status": 200,
@@ -1382,17 +1049,12 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
+          "path": "nosleep.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
+          "path": "analytics.min.js"
         },
         {
           "status": 200,
@@ -1402,12 +1064,32 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "needles.umd.js"
+          "path": "integration.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "scenarios.json"
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
         },
         {
           "status": 200,
@@ -1418,11 +1100,23 @@
           "status": 204,
           "host": "static-stg.hacksawgaming.com",
           "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
         }
       ],
       "errors": [],
-      "visible_text": "OOPS!\n0_1793220832_2822\nConnection lost to wallet - please try again.\nOK",
+      "visible_text": "OOPS!\n0_1793220956_147\nConnection lost to wallet - please try again.\nOK",
       "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "Failed to load resource: net::ERR_FAILED",
@@ -1431,12 +1125,12 @@
       ]
     },
     {
-      "id": 1530,
-      "expected_game": "Donny Dough",
+      "id": 1404,
+      "expected_game": "Rusty & Curly",
       "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
       "navigation_status": 200,
-      "page_title": "Donny Dough",
-      "elapsed_s": 9.5,
+      "page_title": "Rusty & Curly",
+      "elapsed_s": 9.0,
       "main_frame": false,
       "canvas_count": 1,
       "iframe_count": 0,
@@ -1476,7 +1170,193 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd50c790ef0a6"
+          "path": "a51cd812fd9e1ee8"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793220956_2828\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 1426,
+      "expected_game": "Beam Boys",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Beam Boys",
+      "elapsed_s": 9.0,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd84b48bda1df"
         },
         {
           "status": 200,
@@ -1506,37 +1386,17 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
           "path": "ui.min.css"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
+          "path": "juegabien.png"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
+          "path": "promise-polyfill.min.js"
         },
         {
           "status": 200,
@@ -1546,12 +1406,12 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
+          "path": "promotion_button.png"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
+          "path": "nosleep.min.js"
         },
         {
           "status": 200,
@@ -1561,12 +1421,17 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
+          "path": "reporter.min.js"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "en-us.json"
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
         },
         {
           "status": 200,
@@ -1581,7 +1446,22 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
         },
         {
           "status": 200,
@@ -1600,8 +1480,201 @@
         }
       ],
       "errors": [],
-      "visible_text": "OOPS!\n0_1793220832_8396\nConnection lost to wallet - please try again.\nOK",
+      "visible_text": "OOPS!\n0_1793220965_5849\nConnection lost to wallet - please try again.\nOK",
       "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 1530,
+      "expected_game": "Donny Dough",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Donny Dough",
+      "elapsed_s": 9.0,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd84b7b179007"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793220965_6947\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "Failed to load resource: net::ERR_FAILED",
@@ -1655,7 +1728,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd50ead958119"
+          "path": "a51cd84d1980a200"
         },
         {
           "status": 200,
@@ -1680,12 +1753,17 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
+          "path": "ui.min.css"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
         },
         {
           "status": 200,
@@ -1705,22 +1783,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
+          "path": "nosleep.min.js"
         },
         {
           "status": 200,
@@ -1730,12 +1793,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
+          "path": "reporter.min.js"
         },
         {
           "status": 200,
@@ -1745,12 +1803,27 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
           "path": "icomoon.woff2"
         },
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
         },
         {
           "status": 200,
@@ -1779,8 +1852,15 @@
         }
       ],
       "errors": [],
-      "visible_text": "OOPS!\n0_1793220832_4382\nConnection lost to wallet - please try again.\nOK",
+      "visible_text": "OOPS!\n0_1793220965_3713\nConnection lost to wallet - please try again.\nOK",
       "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "Failed to load resource: net::ERR_FAILED",
@@ -1794,470 +1874,6 @@
       "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
       "navigation_status": 200,
       "page_title": "Shadow Strike",
-      "elapsed_s": 19.3,
-      "main_frame": false,
-      "canvas_count": 1,
-      "iframe_count": 0,
-      "observed_runtime": true,
-      "load_result": "runtime_resources_loaded_not_gameplay_verified",
-      "responses": [
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "static-launcher.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hs-launcher.min.js"
-        },
-        {
-          "status": 302,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd5454adc14e1"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "stg.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "version.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "index.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "runtime.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "icomoon.woff2"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "vendors.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "en-us.json"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "scenarios.json"
-        }
-      ],
-      "errors": [
-        "Cannot read properties of undefined (reading 'ongoingRounds')",
-        "Cannot read properties of undefined (reading 'ongoingRounds')"
-      ],
-      "visible_text": "OOPS!\n0_1793220842_6218\nConnection lost to wallet - please try again.\nOK",
-      "last_frame_host": "static-stg.hacksawgaming.com",
-      "console_errors": [
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED"
-      ]
-    },
-    {
-      "id": 1540,
-      "expected_game": "Shadow Treasure",
-      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
-      "navigation_status": 200,
-      "page_title": "Shadow Treasure",
-      "elapsed_s": 18.7,
-      "main_frame": false,
-      "canvas_count": 1,
-      "iframe_count": 0,
-      "observed_runtime": true,
-      "load_result": "runtime_resources_loaded_not_gameplay_verified",
-      "responses": [
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "static-launcher.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hs-launcher.min.js"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 302,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "stg.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd547e86af817"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "version.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "index.html"
-        },
-        {
-          "status": 200,
-          "host": "static.cloudflareinsights.com",
-          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "custom.css"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "array-find-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "coljuegos.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "ui.min.css"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "myextrafile.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promise-polyfill.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "promotion_button.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "analytics.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "EvilEmpire.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "aAnterobot.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "AldotheApache.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksawui_regular.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "reporter.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "Zelda.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "HEROLD.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "FoulFiend.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "MYRIADPRO-BOLD.woff"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-casino.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "icomoon.woff2"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "en-us.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "desc-locale.json"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "loadingDesktopBase.webp"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "ShadowTreasureAudio.mp3"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "loadingDesktopBg.webp"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "logo.webp"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "portraitloading_bg.webp"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "basegame_bg.webp"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "loadingDesktopBar.webp"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "studioTitle.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "loading_bg_desktop.webp"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "openrgs.webp"
-        },
-        {
-          "status": 204,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "rum"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "volatility_marker_off.webp"
-        }
-      ],
-      "errors": [],
-      "visible_text": "OOPS!\n0_1793220842_3460\nConnection lost to wallet - please try again.\nOK",
-      "last_frame_host": "static-stg.hacksawgaming.com",
-      "console_errors": [
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED",
-        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "Failed to load resource: net::ERR_FAILED"
-      ]
-    },
-    {
-      "id": 1554,
-      "expected_game": "Shaolin Master",
-      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
-      "navigation_status": 200,
-      "page_title": "Shaolin Master",
       "elapsed_s": 9.4,
       "main_frame": false,
       "canvas_count": 1,
@@ -2298,7 +1914,204 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd54858a3f07a"
+          "path": "a51cd8836db64cb7"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "runtime.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "vendors.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        }
+      ],
+      "errors": [
+        "Cannot read properties of undefined (reading 'ongoingRounds')",
+        "Cannot read properties of undefined (reading 'ongoingRounds')"
+      ],
+      "visible_text": "OOPS!\n0_1793220974_6242\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 1540,
+      "expected_game": "Shadow Treasure",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Shadow Treasure",
+      "elapsed_s": 9.0,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd883b995acdb"
         },
         {
           "status": 200,
@@ -2333,11 +2146,6 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "juegabien.png"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
           "path": "array-find-polyfill.min.js"
         },
         {
@@ -2348,7 +2156,22 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "outcome-control-manager.min.js"
+          "path": "custom.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "myextrafile.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
         },
         {
           "status": 200,
@@ -2358,7 +2181,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "integration.js"
+          "path": "nosleep.min.js"
         },
         {
           "status": 200,
@@ -2373,12 +2196,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "nosleep.min.js"
-        },
-        {
-          "status": 200,
-          "host": "static-stg.hacksawgaming.com",
-          "path": "hacksaw-ui.min.js"
+          "path": "outcome-control-manager.min.js"
         },
         {
           "status": 200,
@@ -2388,7 +2206,57 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "EvilEmpire.woff"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "aAnterobot.woff"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "Zelda.woff"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
           "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "AldotheApache.woff"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "HEROLD.woff"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "FoulFiend.woff"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "MYRIADPRO-BOLD.woff"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksawui_regular.woff"
         },
         {
           "status": 200,
@@ -2398,7 +2266,47 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "main.js"
+          "path": "loadingDesktopBase.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "logo.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "basegame_bg.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "loadingDesktopBg.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "loadingDesktopBar.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "openrgs.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "studioTitle.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "loading_bg_desktop.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "portraitloading_bg.webp"
         },
         {
           "status": 200,
@@ -2408,7 +2316,7 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "needles.umd.js"
+          "path": "ShadowTreasureAudio.mp3"
         },
         {
           "status": 200,
@@ -2422,8 +2330,15 @@
         }
       ],
       "errors": [],
-      "visible_text": "OOPS!\n0_1793220843_8514\nConnection lost to wallet - please try again.\nOK",
+      "visible_text": "OOPS!\n0_1793220974_1097\nConnection lost to wallet - please try again.\nOK",
       "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "Failed to load resource: net::ERR_FAILED",
@@ -2432,15 +2347,15 @@
       ]
     },
     {
-      "id": 999999,
-      "expected_game": "Negative control (invalid)",
+      "id": 1554,
+      "expected_game": "Shaolin Master",
       "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
       "navigation_status": 200,
-      "page_title": "Hacksaw Gaming",
-      "elapsed_s": 9.2,
-      "main_frame": true,
-      "canvas_count": 0,
-      "iframe_count": 1,
+      "page_title": "Shaolin Master",
+      "elapsed_s": 9.0,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
       "observed_runtime": true,
       "load_result": "runtime_resources_loaded_not_gameplay_verified",
       "responses": [
@@ -2477,7 +2392,560 @@
         {
           "status": 200,
           "host": "static-stg.hacksawgaming.com",
-          "path": "a51cd5f6bc6914e1"
+          "path": "a51cd8870e9aacee"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2458,
+      "expected_game": "Supreme Zeus (known current ID)",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Supreme Zeus",
+      "elapsed_s": 8.9,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd8bf7e03a200"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793220984_9633\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2470,
+      "expected_game": "Le Hooligan (known current ID)",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Le Hooligan",
+      "elapsed_s": 8.9,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd8f4cb8f1ee8"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793220992_4721\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2500,
+      "expected_game": "Recent candidate 2500",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Hacksaw Gaming",
+      "elapsed_s": 9.2,
+      "main_frame": true,
+      "canvas_count": 0,
+      "iframe_count": 1,
+      "observed_runtime": true,
+      "load_result": "version_rejected",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd8f68d884cb7"
         },
         {
           "status": 200,
@@ -2500,6 +2968,2282 @@
       ],
       "visible_text": "",
       "last_frame_host": "",
+      "version_requests": [
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ]
+    },
+    {
+      "id": 2504,
+      "expected_game": "Recent candidate 2504",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Le Cowboy Jojobet",
+      "elapsed_s": 9.1,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd8f7784f1ee8"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793220993_3621\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2508,
+      "expected_game": "Recent candidate 2508",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Lucky Multifruit: Crystal Dust",
+      "elapsed_s": 9.2,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd92cb936a200"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "custom.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "pixi.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "init.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "37d10d68-399d-4598-ba2e-f88efaf7fcee"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "7c5b9d5d-0029-4c45-a155-20a64edda575"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "init.webp"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "NotoSans-Bold.ttf"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221001_2653\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2512,
+      "expected_game": "Recent candidate 2512",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Hacksaw Gaming",
+      "elapsed_s": 8.9,
+      "main_frame": true,
+      "canvas_count": 0,
+      "iframe_count": 1,
+      "observed_runtime": true,
+      "load_result": "version_rejected",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd9301f7ca21b"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "errors": [
+        "J"
+      ],
+      "visible_text": "",
+      "last_frame_host": "",
+      "version_requests": [
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ]
+    },
+    {
+      "id": 2516,
+      "expected_game": "Recent candidate 2516",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Dragon Sanctuary",
+      "elapsed_s": 8.9,
+      "main_frame": false,
+      "canvas_count": 2,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd930abfbad08"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "custom.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "myextrafile.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "pixi.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "151.main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "920.main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "160.main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "62.main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "172.main.js"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221001_8726\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2520,
+      "expected_game": "Recent candidate 2520",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Le Soccer",
+      "elapsed_s": 9.0,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd966797a1ee8"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221010_3762\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2524,
+      "expected_game": "Recent candidate 2524",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Hellmageddon",
+      "elapsed_s": 9.2,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd9682e454cb7"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221011_1582\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2528,
+      "expected_game": "Recent candidate 2528",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Ghost Vision",
+      "elapsed_s": 8.9,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd968a81068e8"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221010_6598\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2532,
+      "expected_game": "Recent candidate 2532",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Ghost Vision",
+      "elapsed_s": 8.9,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd99f1859a21b"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221020_8947\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2536,
+      "expected_game": "Recent candidate 2536",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Fist of Destruction Megamultiplier",
+      "elapsed_s": 9.1,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd9a0ce119007"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221019_1596\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2540,
+      "expected_game": "Recent candidate 2540",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Hacksaw Gaming",
+      "elapsed_s": 8.9,
+      "main_frame": true,
+      "canvas_count": 0,
+      "iframe_count": 1,
+      "observed_runtime": true,
+      "load_result": "version_rejected",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd9a1f830a200"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "errors": [
+        "J"
+      ],
+      "visible_text": "",
+      "last_frame_host": "",
+      "version_requests": [
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ]
+    },
+    {
+      "id": 2560,
+      "expected_game": "Recent candidate 2560",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "SPACE FART JUMP",
+      "elapsed_s": 9.0,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd9d70c630640"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221028_7802\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 2600,
+      "expected_game": "Recent candidate 2600",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Hacksaw Gaming",
+      "elapsed_s": 8.9,
+      "main_frame": true,
+      "canvas_count": 0,
+      "iframe_count": 1,
+      "observed_runtime": true,
+      "load_result": "version_rejected",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd9da2dfa1ee8"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "errors": [
+        "J"
+      ],
+      "visible_text": "",
+      "last_frame_host": "",
+      "version_requests": [
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ]
+    },
+    {
+      "id": 2700,
+      "expected_game": "Recent candidate 2700",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Decay",
+      "elapsed_s": 9.1,
+      "main_frame": false,
+      "canvas_count": 1,
+      "iframe_count": 0,
+      "observed_runtime": true,
+      "load_result": "runtime_resources_loaded_not_gameplay_verified",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cd9da2e6facfc"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "index.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promise-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "juegabien.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "coljuegos.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "ui.min.css"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "array-find-polyfill.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "integration.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "nosleep.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "analytics.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "reporter.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-casino.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hacksaw-ui.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "outcome-control-manager.min.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "promotion_button.png"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "desc-locale.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "en-us.json"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "icomoon.woff2"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "needles.umd.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "scenarios.json"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        }
+      ],
+      "errors": [],
+      "visible_text": "OOPS!\n0_1793221029_901\nConnection lost to wallet - please try again.\nOK",
+      "last_frame_host": "static-stg.hacksawgaming.com",
+      "version_requests": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "console_errors": [
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-stg.hacksawgaming.com/api/play/partnerSettings' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://rgs-hacksaw-fun-stg.hacksawgaming.com/api/play/authenticate' from origin 'https://static-stg.hacksawgaming.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "id": 999999,
+      "expected_game": "Negative control (invalid)",
+      "host": "https://static-stg.hacksawgaming.com/launcher/static-launcher.html",
+      "navigation_status": 200,
+      "page_title": "Hacksaw Gaming",
+      "elapsed_s": 9.2,
+      "main_frame": true,
+      "canvas_count": 0,
+      "iframe_count": 1,
+      "observed_runtime": true,
+      "load_result": "version_rejected",
+      "responses": [
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "static-launcher.html"
+        },
+        {
+          "status": 200,
+          "host": "static.cloudflareinsights.com",
+          "path": "vce701823e78c4301a35b7e07294d87301792088814092"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "hs-launcher.min.js"
+        },
+        {
+          "status": 302,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 204,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "rum"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "main.js"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "a51cda1319da9b4f"
+        },
+        {
+          "status": 200,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "stg.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
+      "errors": [
+        "J"
+      ],
+      "visible_text": "",
+      "last_frame_host": "",
+      "version_requests": [
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        },
+        {
+          "status": 403,
+          "host": "static-stg.hacksawgaming.com",
+          "path": "version.json"
+        }
+      ],
       "console_errors": [
         "Failed to load resource: the server responded with a status of 403 ()",
         "Failed to load resource: the server responded with a status of 403 ()"
