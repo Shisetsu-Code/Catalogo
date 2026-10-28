@@ -28,9 +28,9 @@ jobs:
       - name: Crear miniaturas para los 42 proveedores
         run: python scripts/fetch_logos.py
       - name: Ejecutar pruebas
-        run: cargo test
+        run: cargo test --locked
       - name: Compilar ejecutable
-        run: cargo build --release
+        run: cargo build --release --locked
       - name: Empaquetar ejecutable y catalogo
         shell: pwsh
         run: |
