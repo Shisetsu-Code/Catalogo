@@ -6,10 +6,10 @@ description = "Checklist de proveedores con catalogo JSON editable"
 license = "MIT"
 
 [dependencies]
-eframe = { version = "=0.34.3", default-features = false, features = ["default_fonts", "glow"] }
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-image = { version = "0.25", default-features = false, features = ["png"] }
+eframe = { version = "=0.37.0", default-features = false, features = ["default_fonts", "glow"] }
+serde = { version = "=1.0.229", features = ["derive"] }
+serde_json = "=1.0.154"
+image = { version = "=0.25.10", default-features = false, features = ["png"] }
 
 [profile.release]
 opt-level = 2
