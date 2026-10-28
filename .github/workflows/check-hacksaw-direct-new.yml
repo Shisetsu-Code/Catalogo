@@ -1,0 +1,37 @@
+name: Check recent Hacksaw demo URLs on live client
+on:
+  push:
+    branches: [hacksaw-catalog-export-20261028]
+    paths:
+      - tools/check_hacksaw_direct_new.py
+      - .github/workflows/check-hacksaw-direct-new.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - run: python tools/check_hacksaw_direct_new.py
+      - name: Commit evidence
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/hacksaw/direct_missing_id_checks.json || true
+          git diff --cached --quiet || git commit -m "Record public direct demo checks"
+          git push || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hacksaw-direct-new
+          path: data/hacksaw/direct_missing_id_checks.json
+          if-no-files-found: warn
