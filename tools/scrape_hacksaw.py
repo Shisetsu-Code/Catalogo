@@ -52,6 +52,56 @@ def as_title(slug):
 def normalized(s):
     return re.sub(r"[^a-z0-9]+", "", s.lower())
 
+
+def collect_public_sitemap_links():
+    """Only publicly advertised URLs, no authentication and no guessed game addresses."""
+    import gzip
+    import html
+    from collections import deque
+    from urllib.request import Request, urlopen
+    from xml.etree import ElementTree as ET
+
+    seeds=["https://slotslaunch.com/sitemap.xml",
+           "https://slotslaunch.com/sitemap_index.xml",
+           "https://slotslaunch.com/sitemap-games.xml",
+           "https://slotslaunch.com/game-sitemap.xml",
+           "https://slotslaunch.com/robots.txt"]
+    queue=deque(seeds)
+    visited=set()
+    games=set()
+    debug=[]
+    while queue and len(visited)<250:
+        url=queue.popleft()
+        if url in visited: continue
+        visited.add(url)
+        try:
+            req=Request(url,headers={"User-Agent":"Googlebot/2.1 (+https://www.google.com/bot.html)",
+                   "Accept":"application/xml,text/xml,text/plain,*/*"})
+            with urlopen(req,timeout=14) as f:
+                body=f.read(12_000_000)
+                status=f.status
+            if body.startswith(b'\x1f\x8b'): body=gzip.decompress(body)
+            src=body.decode('utf-8',errors='replace')
+            if 'robots.txt' in url:
+                more=[x.split(':',1)[1].strip() for x in src.splitlines() if x.lower().startswith('sitemap:')]
+                queue.extend(more)
+                debug.append({"url":url,"code":status,"sitemaps":len(more)})
+                continue
+            root=ET.fromstring(src)
+            locs=[(elem.text or "").strip() for elem in root.iter() if elem.tag.split('}')[-1]=="loc"]
+            idx=root.tag.split('}')[-1] == "sitemapindex"
+            if idx:
+                queue.extend(u for u in locs if u.startswith("https://slotslaunch.com/"))
+            else:
+                for u in locs:
+                    p=urlparse(u)
+                    if p.netloc in ("slotslaunch.com","www.slotslaunch.com") and re.match(r"^/hacksaw-gaming/[^/]+/?$",p.path):
+                        games.add("https://slotslaunch.com"+p.path.rstrip('/'))
+            debug.append({"url":url,"code":status,"index":idx,"urls":len(locs),"hacksaw_total":len(games)})
+        except Exception as e:
+            debug.append({"url":url,"error":str(e)[:140]})
+    return sorted(games),debug
+
 async def collect():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--disable-dev-shm-usage", "--no-sandbox"])
@@ -136,6 +186,15 @@ async def collect():
             v["name"]=name
             v["title_score"]=score
 
+    sitemap_links,sitemap_debug=collect_public_sitemap_links()
+    print("Sitemaps:",len(sitemap_links),"scanned",len(sitemap_debug),flush=True)
+    for u in sitemap_links:
+        if u in games:continue
+        slug=urlparse(u).path.rsplit("/",1)[-1]
+        games[u]={"name":as_title(slug),"page_url":u,"slug":slug,
+                   "source":"SlotsLaunch sitemap XML",
+                   "status":"ficha_indexada_demo_no_verificada",
+                   "direct_client_url":"","official_url":"","title_score":0}
     all_games=list(games.values())
     # Los anunciados como Coming Soon que no figuran en la lista de demos
     # no se pueden etiquetar como lanzables sin verificar.
@@ -152,7 +211,7 @@ async def collect():
           "complete_against_site_claim":expected is not None and
               len([x for x in all_games if x["status"]=="listado_para_demo"])>=expected,
           "notes":"Enlaces a páginas con demo; no son URL de API del fabricante ni sesiones/iframes permanentes.",
-          "page_javascript_errors":errors[:15], "diagnostics":debug}
+          "page_javascript_errors":errors[:15], "diagnostics":debug,"sitemap_links_found":len(sitemap_links),"sitemap_scan":sitemap_debug[-50:]}
     (OUT / "catalogo.json").write_text(json.dumps(
         {"metadata":meta, "games":all_games},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     with (OUT / "catalogo.csv").open("w",newline="",encoding="utf-8-sig") as f:
