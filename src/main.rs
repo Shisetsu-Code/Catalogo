@@ -65,7 +65,7 @@ fn normalize(names: Vec<String>) -> Vec<String> {
     let mut result = Vec::new();
     for raw in names {
         let name = raw.trim();
-        let id = key(name);
+        let id = key(&name);
         if !id.is_empty() && seen.insert(id) {
             result.push(name.to_string());
         }
@@ -176,7 +176,7 @@ fn export_csv(path: &PathBuf, providers: &[String], checks: &BTreeMap<String, bo
     }
     let mut out = String::from("\u{FEFF}Proveedor;Estado\r\n");
     for name in providers {
-        let is_owned = checks.get(&key(name)).copied().unwrap_or(false);
+        let is_owned = checks.get(&key(&name)).copied().unwrap_or(false);
         out.push_str(&safe_csv_cell(name));
         out.push(';');
         out.push_str(if is_owned { "Tengo" } else { "Me falta" });
@@ -235,18 +235,18 @@ impl CatalogApp {
     }
 
     fn add_provider(&mut self) {
-        let name = self.new_provider.trim();
+        let name = self.new_provider.trim().to_string();
         if name.is_empty() {
             return;
         }
-        if self.providers.iter().any(|item| key(item) == key(name)) {
+        if self.providers.iter().any(|item| key(item) == key(&name)) {
             self.status = format!("Ya existe el proveedor: {name}");
             return;
         }
         let mut next = self.providers.clone();
-        next.push(name.to_owned());
+        next.push(name.clone());
         self.update_catalog(next);
-        if self.providers.iter().any(|item| key(item) == key(name)) {
+        if self.providers.iter().any(|item| key(item) == key(&name)) {
             self.new_provider.clear();
         }
     }
@@ -272,7 +272,7 @@ impl eframe::App for CatalogApp {
 
             let total = self.providers.len();
             let owned = self.providers.iter()
-                .filter(|name| self.checks.get(&key(name)).copied().unwrap_or(false)).count();
+                .filter(|name| self.checks.get(&key(&name)).copied().unwrap_or(false)).count();
             ui.horizontal_wrapped(|ui| {
                 ui.strong(format!("TOTAL: {total}"));
                 ui.separator();
@@ -300,7 +300,7 @@ impl eframe::App for CatalogApp {
             let mut to_remove = None;
             egui::ScrollArea::vertical().max_height(355.0).show(ui, |ui| {
                 for name in &self.providers {
-                    let id = key(name);
+                    let id = key(&name);
                     let mut has_it = self.checks.get(&id).copied().unwrap_or(false);
                     if !name.to_lowercase().contains(&query) { continue; }
                     if self.filter == Filter::Owned && !has_it { continue; }
