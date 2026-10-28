@@ -57,6 +57,8 @@ async def collect():
         browser = await p.chromium.launch(headless=True, args=["--disable-dev-shm-usage", "--no-sandbox"])
         page = await browser.new_page(viewport={"width": 1440, "height": 900}, locale="en-US")
         errors=[]
+        requests=[]
+        page.on("request", lambda req: requests.append(req.url) if "slotslaunch.com" in req.url and ("/api/" in req.url or "page=" in req.url or "cursor=" in req.url or "ajax" in req.url) else None)
         page.on("pageerror", lambda err: errors.append(str(err)[:240]))
         await page.goto(URL, wait_until="domcontentloaded", timeout=90000)
         await page.wait_for_timeout(3500)
@@ -77,8 +79,20 @@ async def collect():
         max_seen=0
         stale=0
         for i in range(130):
-            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            await page.wait_for_timeout(1250 if i%6 == 0 else 650)
+            await page.evaluate("window.scrollTo(0, Math.max(0,document.body.scrollHeight-400))")
+            await page.wait_for_timeout(100)
+            await page.mouse.wheel(0, 2500)
+            await page.wait_for_timeout(1750 if i%5 == 0 else 850)
+            if i%6 == 0:
+                for label in ('Load More', 'Show More', 'View More'):
+                    try:
+                        b=page.get_by_role("button", name=label, exact=False)
+                        if await b.count() and await b.last.is_visible():
+                            await b.last.click(timeout=1300)
+                            print("Clicked pagination button:", label, flush=True)
+                            break
+                    except Exception:
+                        pass
             raw=await page.evaluate(JS_READ)
             count=len({x['url'] for x in raw})
             if count>max_seen:
@@ -94,8 +108,15 @@ async def collect():
                 await page.wait_for_timeout(300)
                 await page.mouse.wheel(0,1500)
                 await page.wait_for_timeout(1000)
-                if stale>=24: break
+                if stale>=40: break
         raw=await page.evaluate(JS_READ)
+        debug = {
+          "buttons": (await page.locator("button").all_text_contents())[-40:],
+          "document_tail": (await page.locator("body").inner_text())[-1500:],
+          "scroll": await page.evaluate("({y:window.scrollY, height:document.body.scrollHeight, viewport:innerHeight})"),
+          "network_paths": sorted(set([urlparse(u).path + ("?" + "&".join(sorted(re.findall(r'([a-zA-Z_]+)=', urlparse(u).query))) if urlparse(u).query else "") for u in requests]))[-75:]
+        }
+        print("DEBUG",json.dumps(debug,ensure_ascii=False),flush=True)
         await page.screenshot(path=str(OUT / "pagina_final.png"),full_page=False)
         await browser.close()
 
@@ -131,7 +152,7 @@ async def collect():
           "complete_against_site_claim":expected is not None and
               len([x for x in all_games if x["status"]=="listado_para_demo"])>=expected,
           "notes":"Enlaces a páginas con demo; no son URL de API del fabricante ni sesiones/iframes permanentes.",
-          "page_javascript_errors":errors[:15]}
+          "page_javascript_errors":errors[:15], "diagnostics":debug}
     (OUT / "catalogo.json").write_text(json.dumps(
         {"metadata":meta, "games":all_games},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     with (OUT / "catalogo.csv").open("w",newline="",encoding="utf-8-sig") as f:
