@@ -1,0 +1,39 @@
+name: Compilar Windows
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Instalar Rust estable
+        uses: dtolnay/rust-toolchain@stable
+      - name: Cache de Rust
+        uses: Swatinem/rust-cache@v2
+      - name: Ejecutar pruebas
+        run: cargo test
+      - name: Compilar ejecutable
+        run: cargo build --release
+      - name: Empaquetar ejecutable y catalogo
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path dist | Out-Null
+          Copy-Item "target/release/catalogo-proveedores.exe" "dist/catalogo-proveedores.exe"
+          Copy-Item "proveedores.json" "dist/proveedores.json"
+          Copy-Item "README.md" "dist/README.md"
+          Compress-Archive -Path "dist/*" -DestinationPath "Catalogo-Proveedores-Windows.zip" -Force
+      - name: Publicar descarga
+        uses: actions/upload-artifact@v4
+        with:
+          name: Catalogo-Proveedores-Windows
+          path: Catalogo-Proveedores-Windows.zip
+          retention-days: 30
