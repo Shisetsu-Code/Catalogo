@@ -28,7 +28,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/hacksaw/id_tests_batch2.json || true
           git diff --cached --quiet || git commit -m "Record second bounded demo ID batch"
-          git push || true
+          git pull --rebase origin hacksaw-catalog-export-20261028
+          git push origin HEAD:hacksaw-catalog-export-20261028
       - uses: actions/upload-artifact@v4
         if: always()
         with:
