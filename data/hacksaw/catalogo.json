@@ -1,0 +1,1084 @@
+{
+  "metadata": {
+    "source_url": "https://slotslaunch.com/hacksaw-gaming",
+    "collected_at_utc": "2026-10-28T18:07:06.551532+00:00",
+    "source_claimed_demo_count": 285,
+    "unique_page_links_collected": 119,
+    "complete_against_site_claim": false,
+    "notes": "Enlaces a páginas con demo; no son URL de API del fabricante ni sesiones/iframes permanentes.",
+    "page_javascript_errors": []
+  },
+  "games": [
+    {
+      "name": "3 Adventures of Alice Hold & Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/3-adventures-of-alice-hold-win",
+      "slug": "3-adventures-of-alice-hold-win",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "3 Arcane Cauldron - HG",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/3-arcane-cauldron-hg",
+      "slug": "3-arcane-cauldron-hg",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "3 Cursed Chests",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/3-cursed-chests",
+      "slug": "3-cursed-chests",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "3 Magic Piggy Banks",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/3-magic-piggy-banks",
+      "slug": "3-magic-piggy-banks",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "3 Red Hoods",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/3-red-hoods",
+      "slug": "3-red-hoods",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Aiko and the Wind Spirit",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/aiko-and-the-wind-spirit",
+      "slug": "aiko-and-the-wind-spirit",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Aliens Among Us",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/aliens-among-us",
+      "slug": "aliens-among-us",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Arizona James and the Lost Relics",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/arizona-james-and-the-lost-relics",
+      "slug": "arizona-james-and-the-lost-relics",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Army of Ares",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/army-of-ares",
+      "slug": "army-of-ares",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Bash Bros",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/bash-bros",
+      "slug": "bash-bros",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Bullets and Bounty",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/bullets-and-bounty",
+      "slug": "bullets-and-bounty",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Buried By Night",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/buried-by-night",
+      "slug": "buried-by-night",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Cash Crooks",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/cash-crooks",
+      "slug": "cash-crooks",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Chaos Crew 3",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/chaos-crew-3",
+      "slug": "chaos-crew-3",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Circle of Life",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/circle-of-life",
+      "slug": "circle-of-life",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Coffee Dealer",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/coffee-dealer",
+      "slug": "coffee-dealer",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Croco Clover",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/croco-clover",
+      "slug": "croco-clover",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dandy Diamonds",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dandy-diamonds",
+      "slug": "dandy-diamonds",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dark Spiral",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dark-spiral",
+      "slug": "dark-spiral",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Deal with Death",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/deal-with-death",
+      "slug": "deal-with-death",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Death Becomes You",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/death-becomes-you",
+      "slug": "death-becomes-you",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Demonic Dolls",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/demonic-dolls",
+      "slug": "demonic-dolls",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Donny & Danny",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/donny-danny",
+      "slug": "donny-danny",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Donny & Danny OG",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/donny-danny-og",
+      "slug": "donny-danny-og",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Donny Dough OG",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/donny-dough-og",
+      "slug": "donny-dough-og",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dr Zappo",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dr-zappo",
+      "slug": "dr-zappo",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dusk Princess",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dusk-princess",
+      "slug": "dusk-princess",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Dynasty of Death",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/dynasty-of-death",
+      "slug": "dynasty-of-death",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Eclipse Princess",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/eclipse-princess",
+      "slug": "eclipse-princess",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Epic Bullets and Bounty",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/epic-bullets-and-bounty",
+      "slug": "epic-bullets-and-bounty",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Epic Hand of Anubis",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/epic-hand-of-anubis",
+      "slug": "epic-hand-of-anubis",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Epic SixSixSix",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/epic-sixsixsix",
+      "slug": "epic-sixsixsix",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Epic Ze Zeus",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/epic-ze-zeus",
+      "slug": "epic-ze-zeus",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Eternal Duel",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/eternal-duel",
+      "slug": "eternal-duel",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Feeling Froggy",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/feeling-froggy",
+      "slug": "feeling-froggy",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Fist of Destruction Megamultiplier",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/fist-of-destruction-megamultiplier",
+      "slug": "fist-of-destruction-megamultiplier",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Ghost Vision",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/ghost-vision",
+      "slug": "ghost-vision",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Gold Baron 777 Hold & Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/gold-baron-777-hold-win",
+      "slug": "gold-baron-777-hold-win",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Great Game Rockies",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/great-game-rockies",
+      "slug": "great-game-rockies",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Great Game Serengeti",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/great-game-serengeti",
+      "slug": "great-game-serengeti",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Grug Make Fire",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/grug-make-fire",
+      "slug": "grug-make-fire",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Hacked Hand of Anubis",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hacked-hand-of-anubis",
+      "slug": "hacked-hand-of-anubis",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Hacked Wanted Dead or a Wild",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hacked-wanted-dead-or-a-wild",
+      "slug": "hacked-wanted-dead-or-a-wild",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Hellmageddon",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hellmageddon",
+      "slug": "hellmageddon",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Hot Ross",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/hot-ross",
+      "slug": "hot-ross",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Jaws of Justice",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/jaws-of-justice",
+      "slug": "jaws-of-justice",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Bandit",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-bandit",
+      "slug": "le-bandit",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Bandit Hold & Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-bandit-hold-win",
+      "slug": "le-bandit-hold-win",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Bruno",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-bruno",
+      "slug": "le-bruno",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Bunny",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-bunny",
+      "slug": "le-bunny",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Clubber",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-clubber",
+      "slug": "le-clubber",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Cowboy",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-cowboy",
+      "slug": "le-cowboy",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Digger",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-digger",
+      "slug": "le-digger",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Fisherman",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-fisherman",
+      "slug": "le-fisherman",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Football Fan",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-football-fan",
+      "slug": "le-football-fan",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Gift Grabber",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-gift-grabber",
+      "slug": "le-gift-grabber",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Granny",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-granny",
+      "slug": "le-granny",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Hooligan",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-hooligan",
+      "slug": "le-hooligan",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Prechaun",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-prechaun",
+      "slug": "le-prechaun",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Santa",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-santa",
+      "slug": "le-santa",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Santa Hold & Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-santa-hold-win",
+      "slug": "le-santa-hold-win",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Sortudo",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-sortudo",
+      "slug": "le-sortudo",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Vampire",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-vampire",
+      "slug": "le-vampire",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Le Zeus",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/le-zeus",
+      "slug": "le-zeus",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lead for Lunch",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lead-for-lunch",
+      "slug": "lead-for-lunch",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Lucky Ling Golden Treasures",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/lucky-ling-golden-treasures",
+      "slug": "lucky-ling-golden-treasures",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Magic Piggy 3×3",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/magic-piggy-33",
+      "slug": "magic-piggy-33",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Magic Piggy OG",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/magic-piggy-og",
+      "slug": "magic-piggy-og",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Marlin Masters 3x3",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters-3x3",
+      "slug": "marlin-masters-3x3",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Marlin Masters Atlantis",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters-atlantis",
+      "slug": "marlin-masters-atlantis",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Marlin Masters OG",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters-og",
+      "slug": "marlin-masters-og",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Marlin Masters: Frozen Frenzy",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters-frozen-frenzy",
+      "slug": "marlin-masters-frozen-frenzy",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Marlin Masters: The Big Haul",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters-the-big-haul",
+      "slug": "marlin-masters-the-big-haul",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Max Win Machine",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/max-win-machine",
+      "slug": "max-win-machine",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Miami Mayhem",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/miami-mayhem",
+      "slug": "miami-mayhem",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Mines Supreme",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/mines-supreme",
+      "slug": "mines-supreme",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Minted Mike",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/minted-mike",
+      "slug": "minted-mike",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Moneyplane",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/moneyplane",
+      "slug": "moneyplane",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Munchy Milo",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/munchy-milo",
+      "slug": "munchy-milo",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Nitro Nights",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/nitro-nights",
+      "slug": "nitro-nights",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Power of Ten",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/power-of-ten",
+      "slug": "power-of-ten",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Pray For Six",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/pray-for-six",
+      "slug": "pray-for-six",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Rainbow Princess",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rainbow-princess",
+      "slug": "rainbow-princess",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Red Hot Chili Clovers",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/red-hot-chili-clovers",
+      "slug": "red-hot-chili-clovers",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Red Rascal",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/red-rascal",
+      "slug": "red-rascal",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "RIP City",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rip-city",
+      "slug": "rip-city",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Rise of Fortuna",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/rise-of-fortuna",
+      "slug": "rise-of-fortuna",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Sand and Ashes",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/sand-and-ashes",
+      "slug": "sand-and-ashes",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Secret Order",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/secret-order",
+      "slug": "secret-order",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Shadows Inc",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/shadows-inc",
+      "slug": "shadows-inc",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Skybound Bail2Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/skybound-bail2win",
+      "slug": "skybound-bail2win",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Smoking Dragon",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/smoking-dragon",
+      "slug": "smoking-dragon",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Spear of Athena",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/spear-of-athena",
+      "slug": "spear-of-athena",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Spicy SixSixSix",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/spicy-sixsixsix",
+      "slug": "spicy-sixsixsix",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Steamrunners",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/steamrunners",
+      "slug": "steamrunners",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Stormborn",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/stormborn",
+      "slug": "stormborn",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Sun Princess",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/sun-princess",
+      "slug": "sun-princess",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Supernova Galaxy Orbs",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/supernova-galaxy-orbs",
+      "slug": "supernova-galaxy-orbs",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Supernova Shooting Stars",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/supernova-shooting-stars",
+      "slug": "supernova-shooting-stars",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Superstar Sevens",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/superstar-sevens",
+      "slug": "superstar-sevens",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Supreme Zeus",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/supreme-zeus",
+      "slug": "supreme-zeus",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Suspect Noir",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/suspect-noir",
+      "slug": "suspect-noir",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Tasty Teddy",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/tasty-teddy",
+      "slug": "tasty-teddy",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Count",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-count",
+      "slug": "the-count",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Jade Path Hold & Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-jade-path-hold-win",
+      "slug": "the-jade-path-hold-win",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Lord",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-lord",
+      "slug": "the-lord",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Luxe Dice",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-luxe-dice",
+      "slug": "the-luxe-dice",
+      "source": "SlotsLaunch",
+      "status": "anunciado_sin_demo_confirmada",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Luxe Prestige",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-luxe-prestige",
+      "slug": "the-luxe-prestige",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "The Wildwood Curse",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/the-wildwood-curse",
+      "slug": "the-wildwood-curse",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Throne of Gold Hold & Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/throne-of-gold-hold-win",
+      "slug": "throne-of-gold-hold-win",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Tiger Legends",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/tiger-legends",
+      "slug": "tiger-legends",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Toshi Ways Club",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/toshi-ways-club",
+      "slug": "toshi-ways-club",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Toxic City Hold & Win",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/toxic-city-hold-win",
+      "slug": "toxic-city-hold-win",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Tres Pinatas",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/tres-pinatas",
+      "slug": "tres-pinatas",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Wanted Dead or a Wild",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/wanted-dead-or-a-wild",
+      "slug": "wanted-dead-or-a-wild",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Wanted Salvation",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/wanted-salvation",
+      "slug": "wanted-salvation",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Wicked Grin",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/wicked-grin",
+      "slug": "wicked-grin",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Willy Wildwing",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/willy-wildwing",
+      "slug": "willy-wildwing",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    },
+    {
+      "name": "Zeus Ze Zecond",
+      "page_url": "https://slotslaunch.com/hacksaw-gaming/zeus-ze-zecond",
+      "slug": "zeus-ze-zecond",
+      "source": "SlotsLaunch",
+      "status": "listado_para_demo",
+      "direct_client_url": "",
+      "official_url": ""
+    }
+  ]
+}
