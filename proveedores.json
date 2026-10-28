@@ -67,7 +67,8 @@
   {
     "id": "relagaming",
     "name": "Relax Gaming",
-    "domain": "relax-gaming.com"
+    "domain": "relax-gaming.com",
+    "logo_url": "https://assets.gamingintelligence.com/wp-content/uploads/2021/05/26102116/Relax-Gaming-2-1024x576.jpg"
   },
   {
     "id": "wazdan",
@@ -92,12 +93,14 @@
   {
     "id": "tadagaming",
     "name": "TaDa Gaming",
-    "domain": "tadagaming.com"
+    "domain": "tadagaming.com",
+    "logo_url": "https://cdn.asp.events/CLIENT_CL_Gamin_A45C4908_5056_B725_6B2249A7AD85625A/companyProfiles/ad886133-d3ce-11ed-a79506e21988b83f-logo.png"
   },
   {
     "id": "kagaming",
     "name": "KA Gaming",
-    "domain": "kagaming.com"
+    "domain": "kagaming.com",
+    "logo_url": "https://igaming.org/wp-content/uploads/2022/05/KA-Gaming-logo-1200x1200-1.png.webp"
   },
   {
     "id": "mascotgaming",
@@ -172,7 +175,8 @@
   {
     "id": "ezugi",
     "name": "Ezugi",
-    "domain": "ezugi.com"
+    "domain": "ezugi.com",
+    "logo_url": "https://static.wixstatic.com/media/7e253c_4c561f3083f74ce68dc4d7bcfd098f8e~mv2.png"
   },
   {
     "id": "rubyplay",
