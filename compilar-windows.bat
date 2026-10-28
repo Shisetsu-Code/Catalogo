@@ -9,7 +9,7 @@ if errorlevel 1 (
 )
 where python >nul 2>nul
 if not errorlevel 1 (
-  python -m pip install --disable-pip-version-check pillow
+  python -m pip install --disable-pip-version-check -r requirements-build.txt
   if not errorlevel 1 (
     python scripts\fetch_logos.py
   )
