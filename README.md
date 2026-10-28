@@ -49,8 +49,8 @@ El botón **Exportar CSV** genera un CSV para Excel en la misma carpeta del esta
 Con Rust instalado:
 
 ~~~powershell
-cargo test
-cargo build --release
+cargo test --locked
+cargo build --release --locked
 .\target\release\catalogo-proveedores.exe
 ~~~
 
@@ -70,7 +70,25 @@ No se conecta a una API: cada casilla se marca manualmente.
 ```powershell
 python -m pip install pillow
 python scripts/fetch_logos.py
-cargo build --release
+cargo build --release --locked
 ```
 
 La CI de Windows realiza estos pasos automáticamente e incluye todos los PNG en el ZIP. Los logos son favicons de los sitios indicados en el catálogo, no necesariamente los logotipos completos oficiales. Donde no se pudo obtener favicon, se muestra una miniatura con iniciales, sin inventar la marca. La app no hace solicitudes de red al abrirse; funciona sin conexión con la carpeta `logos/`.
+
+## Dependencias y actualizaciones
+
+Versiones revisadas el 28 de octubre de 2026:
+
+| Componente | Versión |
+|---|---|
+| eframe / egui | 0.37.0 |
+| serde | 1.0.229 |
+| serde_json | 1.0.154 |
+| image | 0.25.10 |
+| Pillow (generación de logos) | 13.0.0 |
+| actions/checkout | 7.0.1 |
+| actions/upload-artifact | 7.0.2 |
+| Swatinem/rust-cache | 2.9.2 |
+| rustc | stable (se instala con rustup en GitHub Actions) |
+
+Las dependencias directas Rust están declaradas en `Cargo.toml`; el archivo `Cargo.lock` congela las transitivas. `requirements-build.txt` fija Pillow. GitHub Actions ejecuta `cargo test --locked` y `cargo build --release --locked`. Dependabot está configurado para comprobar semanalmente las actualizaciones disponibles en Cargo, pip y GitHub Actions: genera propuestas de cambio, que deben revisarse antes de incorporarlas.
