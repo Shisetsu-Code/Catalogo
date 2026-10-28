@@ -3,3 +3,4 @@
 estado.json
 proveedores.csv
 *.tmp
+/logos/
