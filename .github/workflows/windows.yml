@@ -22,7 +22,7 @@ jobs:
       - name: Instalar Rust estable
         uses: dtolnay/rust-toolchain@stable
       - name: Cache de Rust
-        uses: Swatinem/rust-cache@v2.9.2
+        uses: Swatinem/rust-cache@v2.9.3
       - name: Preparar librería de imágenes
         run: python -m pip install -r requirements-build.txt
       - name: Crear miniaturas para los 42 proveedores
