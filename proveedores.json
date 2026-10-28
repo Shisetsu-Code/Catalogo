@@ -1,44 +1,212 @@
 [
-  "Pragmatic",
-  "Endorphina",
-  "Playson",
-  "Evolution Gaming",
-  "Kendoo",
-  "Reel Kingdom",
-  "BGaming",
-  "Heaven of 7",
-  "3Oaks",
-  "PG Soft",
-  "Hacksaw",
-  "Nolimit",
-  "Play and Go",
-  "Rela Gaming",
-  "Wazdan",
-  "Amusnet",
-  "Amigo Gaming",
-  "InOut Games",
-  "TaDa Gaming",
-  "KA Gaming",
-  "Mascot Gaming",
-  "Spinometal",
-  "Pascal Gaming",
-  "ELA Games",
-  "ELK Studios",
-  "Belatra",
-  "Platiplus",
-  "Microgaming",
-  "1Spin4Win",
-  "Yggdrasil",
-  "Habanero",
-  "Red Tiger",
-  "NetEnt",
-  "Wicked Games",
-  "Ezugi",
-  "RubyPlay",
-  "Playtech",
-  "Spribe",
-  "Smartsoft Gaming",
-  "Peter and Sons",
-  "Iron Dog Studio",
-  "Shady Lady"
+  {
+    "id": "pragmatic",
+    "name": "Pragmatic Play",
+    "domain": "pragmaticplay.com"
+  },
+  {
+    "id": "endorphina",
+    "name": "Endorphina",
+    "domain": "endorphina.com"
+  },
+  {
+    "id": "playson",
+    "name": "Playson",
+    "domain": "playson.com"
+  },
+  {
+    "id": "evolutiongaming",
+    "name": "Evolution",
+    "domain": "evolution.com"
+  },
+  {
+    "id": "kendoo",
+    "name": "Kendoo",
+    "domain": "kendoo.com"
+  },
+  {
+    "id": "reelkingdom",
+    "name": "Reel Kingdom",
+    "domain": "reelkingdom.com"
+  },
+  {
+    "id": "bgaming",
+    "name": "BGaming",
+    "domain": "bgaming.com"
+  },
+  {
+    "id": "heavenof7",
+    "name": "Heaven of 7",
+    "domain": "heavenof7.com"
+  },
+  {
+    "id": "3oaks",
+    "name": "3 Oaks Gaming",
+    "domain": "3oaks.com"
+  },
+  {
+    "id": "pgsoft",
+    "name": "PG Soft",
+    "domain": "pgsoft.com"
+  },
+  {
+    "id": "hacksaw",
+    "name": "Hacksaw Gaming",
+    "domain": "hacksawgaming.com"
+  },
+  {
+    "id": "nolimit",
+    "name": "Nolimit City",
+    "domain": "nolimitcity.com"
+  },
+  {
+    "id": "playandgo",
+    "name": "Play'n GO",
+    "domain": "playngo.com"
+  },
+  {
+    "id": "relagaming",
+    "name": "Relax Gaming",
+    "domain": "relax-gaming.com"
+  },
+  {
+    "id": "wazdan",
+    "name": "Wazdan",
+    "domain": "wazdan.com"
+  },
+  {
+    "id": "amusnet",
+    "name": "Amusnet",
+    "domain": "amusnet.com"
+  },
+  {
+    "id": "amigogaming",
+    "name": "Amigo Gaming",
+    "domain": "amigogaming.com"
+  },
+  {
+    "id": "inoutgames",
+    "name": "InOut Games",
+    "domain": "inoutgaming.com"
+  },
+  {
+    "id": "tadagaming",
+    "name": "TaDa Gaming",
+    "domain": "tadagaming.com"
+  },
+  {
+    "id": "kagaming",
+    "name": "KA Gaming",
+    "domain": "kagaming.com"
+  },
+  {
+    "id": "mascotgaming",
+    "name": "Mascot Gaming",
+    "domain": "mascot.games"
+  },
+  {
+    "id": "spinometal",
+    "name": "Spinomenal",
+    "domain": "spinomenal.com"
+  },
+  {
+    "id": "pascalgaming",
+    "name": "Pascal Gaming",
+    "domain": "pascalgaming.com"
+  },
+  {
+    "id": "elagames",
+    "name": "ELA Games",
+    "domain": "elagames.com"
+  },
+  {
+    "id": "elkstudios",
+    "name": "ELK Studios",
+    "domain": "elk-studios.com"
+  },
+  {
+    "id": "belatra",
+    "name": "Belatra Games",
+    "domain": "belatragames.com"
+  },
+  {
+    "id": "platiplus",
+    "name": "Plati+Live (Platipus)",
+    "domain": "platipusgaming.com"
+  },
+  {
+    "id": "microgaming",
+    "name": "Microgaming",
+    "domain": "microgaming.co.uk"
+  },
+  {
+    "id": "1spin4win",
+    "name": "1spin4win",
+    "domain": "1spin4win.com"
+  },
+  {
+    "id": "yggdrasil",
+    "name": "Yggdrasil Gaming",
+    "domain": "yggdrasilgaming.com"
+  },
+  {
+    "id": "habanero",
+    "name": "Habanero",
+    "domain": "habanerosystems.com"
+  },
+  {
+    "id": "redtiger",
+    "name": "Red Tiger",
+    "domain": "redtiger.com"
+  },
+  {
+    "id": "netent",
+    "name": "NetEnt",
+    "domain": "netent.com"
+  },
+  {
+    "id": "wickedgames",
+    "name": "Wicked Games",
+    "domain": "wicked.games"
+  },
+  {
+    "id": "ezugi",
+    "name": "Ezugi",
+    "domain": "ezugi.com"
+  },
+  {
+    "id": "rubyplay",
+    "name": "RubyPlay",
+    "domain": "rubyplay.com"
+  },
+  {
+    "id": "playtech",
+    "name": "Playtech",
+    "domain": "playtech.com"
+  },
+  {
+    "id": "spribe",
+    "name": "SPRIBE",
+    "domain": "spribe.co"
+  },
+  {
+    "id": "smartsoftgaming",
+    "name": "SmartSoft Gaming",
+    "domain": "smartsoftgaming.com"
+  },
+  {
+    "id": "peterandsons",
+    "name": "Peter & Sons",
+    "domain": "peterandsons.com"
+  },
+  {
+    "id": "irondogstudio",
+    "name": "Iron Dog Studio",
+    "domain": "1x2network.com"
+  },
+  {
+    "id": "shadylady",
+    "name": "Shady Lady",
+    "domain": "shadylady.io"
+  }
 ]
