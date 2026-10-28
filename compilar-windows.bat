@@ -14,13 +14,13 @@ if not errorlevel 1 (
     python scripts\fetch_logos.py
   )
 )
-cargo test
+cargo test --locked
 if errorlevel 1 (
   echo ERROR en las pruebas.
   pause
   exit /b 1
 )
-cargo build --release
+cargo build --release --locked
 if errorlevel 1 (
   echo ERROR al compilar.
   pause
