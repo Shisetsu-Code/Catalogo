@@ -1,0 +1,215 @@
+{
+  "started_utc": "2026-11-01T16:47:29.818480+00:00",
+  "providers": {
+    "3 Oaks": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/3-Oaks-Gaming",
+        "url": "https://slotcatalog.com/en/soft/3-Oaks-Gaming"
+      },
+      "slotstemple": {
+        "count": 82,
+        "advertised": 29,
+        "steps": 1,
+        "complete": true,
+        "error": "",
+        "url": "https://www.slotstemple.com/free-slots/3-oaks/"
+      }
+    },
+    "BGaming": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/BGAMING",
+        "url": "https://slotcatalog.com/en/soft/BGAMING"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/bgaming/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/bgaming/"
+      }
+    },
+    "ELK Studios": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/ELK-Studios",
+        "url": "https://slotcatalog.com/en/soft/ELK-Studios"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/elk-studios/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/elk-studios/"
+      }
+    },
+    "Endorphina": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/Endorphina",
+        "url": "https://slotcatalog.com/en/soft/Endorphina"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/endorphina/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/endorphina/"
+      }
+    },
+    "Hacksaw Gaming": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/Hacksaw-Gaming",
+        "url": "https://slotcatalog.com/en/soft/Hacksaw-Gaming"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/hacksaw-gaming/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/hacksaw-gaming/"
+      }
+    },
+    "KA Gaming": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/KA-Gaming",
+        "url": "https://slotcatalog.com/en/soft/KA-Gaming"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/ka-gaming/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/ka-gaming/"
+      }
+    },
+    "NetEnt": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/NetEnt",
+        "url": "https://slotcatalog.com/en/soft/NetEnt"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/net-ent/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/net-ent/"
+      }
+    },
+    "Nolimit City": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/Nolimit-City",
+        "url": "https://slotcatalog.com/en/soft/Nolimit-City"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/nolimit-city/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/nolimit-city/"
+      }
+    },
+    "Play'n GO": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/Play-n-GO",
+        "url": "https://slotcatalog.com/en/soft/Play-n-GO"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/play-n-go/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/play-n-go/"
+      }
+    },
+    "Playson": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/Playson",
+        "url": "https://slotcatalog.com/en/soft/Playson"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/playson/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/playson/"
+      }
+    },
+    "Playtech": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/Playtech",
+        "url": "https://slotcatalog.com/en/soft/Playtech"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/playtech/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/playtech/"
+      }
+    },
+    "Pragmatic Play": {
+      "slotcatalog": {
+        "count": 0,
+        "advertised": null,
+        "pages": [],
+        "complete": false,
+        "error": "403 Client Error: Forbidden for url: https://slotcatalog.com/en/soft/Pragmatic-Play",
+        "url": "https://slotcatalog.com/en/soft/Pragmatic-Play"
+      },
+      "slotstemple": {
+        "count": 0,
+        "advertised": null,
+        "complete": false,
+        "error": "HTTP 403 https://www.slotstemple.com/free-slots/pragmatic-play/ (access restricted)",
+        "url": "https://www.slotstemple.com/free-slots/pragmatic-play/"
+      }
+    }
+  },
+  "finished_utc": "2026-11-01T16:47:58.718564+00:00",
+  "unique_count": 82,
+  "source_count": 82,
+  "all_complete": false,
+  "collisions": 0
+}
