@@ -36,12 +36,20 @@ jobs:
         id: scrape
         run: |
           python -u tools/slot-compare/compare.py --out results
-      - name: Publicar CSV y reporte como artifact
-        if: always()
+      - name: Publicar CSV verificado
+        if: steps.scrape.outcome == 'success'
         uses: actions/upload-artifact@v7
         with:
           name: juegos-unicos-slotcatalog-slotstemple
           path: results/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Publicar diagnóstico si falla el rastreo
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: diagnostico-sin-catalogo-completo
+          path: results/reporte.json
           retention-days: 90
           if-no-files-found: warn
       - name: Mostrar resumen
