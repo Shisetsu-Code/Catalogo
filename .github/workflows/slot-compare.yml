@@ -1,0 +1,76 @@
+name: Comparar catalogos SlotCatalog y SlotsTemple
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/slot-compare.yml'
+      - 'tools/slot-compare/**'
+  schedule:
+    - cron: '25 6 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: slot-compare
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+      - name: Recorrer proveedores y crear CSV
+        id: scrape
+        continue-on-error: true
+        run: |
+          python -u tools/slot-compare/compare.py --out results
+      - name: Publicar CSV y reporte como artifact
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: juegos-unicos-slotcatalog-slotstemple
+          path: results/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Mostrar resumen
+        if: always()
+        run: |
+          if [ -f results/reporte.json ]; then
+            python - <<'PY'
+          import json,os
+          d=json.load(open("results/reporte.json",encoding="utf-8"))
+          lines=["# Comparación de catálogos",f"- Juegos únicos: **{d['unique_count']}**",
+                 f"- Registros por fuente: **{d['source_count']}**",
+                 f"- Cobertura completa verificada: **{d['all_complete']}**","","| Proveedor | SlotCatalog | SlotsTemple | Estado |",
+                 "|---|---:|---:|---|"]
+          for name,sites in d["providers"].items():
+            c,t=sites["slotcatalog"],sites["slotstemple"]
+            lines.append(f"| {name} | {c['count']} | {t['count']} | {'OK' if c['complete'] and t['complete'] else 'INCOMPLETO'} |")
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as f:f.write("\n".join(lines)+"\n")
+          PY
+          fi
+      - name: Publicar resultados CSV en el repositorio
+        if: steps.scrape.outcome == 'success'
+        run: |
+          mkdir -p data/slot-compare
+          cp results/*.csv results/reporte.json data/slot-compare/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/slot-compare/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh games from SlotCatalog and SlotsTemple [skip ci]"
+            git push
+          fi
