@@ -34,7 +34,6 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Recorrer proveedores y crear CSV
         id: scrape
-        continue-on-error: true
         run: |
           python -u tools/slot-compare/compare.py --out results
       - name: Publicar CSV y reporte como artifact
