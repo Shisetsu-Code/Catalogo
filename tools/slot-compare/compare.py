@@ -211,8 +211,11 @@ def slotcatalog(session, page, provider_url, max_pages=160):
                 error=f"page {n}: {ex}"
                 LOG.warning("SlotCatalog %s %s",provider_url,error)
                 break
-        if expected and len(records)<expected:
-            error=(error+"; " if error else "")+f"extracted {len(records)} < advertised {expected}"
+        if expected and len(records)!=expected:
+            error=(error+"; " if error else "")+f"extracted {len(records)} != advertised {expected}"
+            if len(records)>expected:
+                # Entries from navigation/related-games are contaminating the listing.
+                records={}
         return records,{"count":len(records),"advertised":expected,"pages":pages,"complete":not bool(error),"error":error,"url":provider_url}
     except Exception as ex:
         return {},{"count":0,"advertised":None,"pages":pages,"complete":False,"error":str(ex),"url":provider_url}
@@ -243,8 +246,11 @@ def slotstemple(page, url, max_scroll=120):
             page.wait_for_timeout(900)
             if stable>=8: break
         if not records: error="no game cards found in rendered page"
-        if expected and len(records)<expected:
-            error=(error+"; " if error else "")+f"extracted {len(records)} < advertised {expected}"
+        if expected and len(records)!=expected:
+            error=(error+"; " if error else "")+f"extracted {len(records)} != advertised {expected}"
+            if len(records)>expected:
+                # More links than the advertised provider games means unrelated navigation links.
+                records={}
         return records,{"count":len(records),"advertised":expected,"steps":step+1,"complete":not bool(error),"error":error,"url":url}
     except Exception as ex:
         return records,{"count":len(records),"advertised":None,"complete":False,"error":str(ex),"url":url}
@@ -325,6 +331,8 @@ def main():
     output.mkdir(parents=True,exist_ok=True)
     (output/"reporte.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     LOG.info("FINAL unique=%d source=%d complete=%s",len(unique),len(rows),report["all_complete"])
-    if not report["all_complete"]:LOG.warning("INCOMPLETE: see reporte.json, CSV is partial")
+    if not report["all_complete"]:
+        LOG.error("INCOMPLETE: see reporte.json; do not publish this CSV as a complete catalog")
+        raise SystemExit(2)
     if not unique:raise SystemExit("No games extracted. Check access and selectors.")
 if __name__=="__main__":main()
